@@ -1,0 +1,31 @@
+We learned about functions- reusable block of code that performs specific task. it improves modularity and code reusability.
+a function is defined by- def
+syntax:
+
+def function_name(parameters):
+    #code block
+    return result
+
+SCOPE VARIABLES
+
+Local Scope: variables accessable within only that function
+Global Scope: variables defined outside the function are used throughout the program
+
+Lifetime: local variables exist as long as the function executes and a global can be used throughout the program unless its defined in a function as 'global'
+
+MODULES: python files containing collections of functions and variables which can be reused. 
+In-built modules: math, os, random 
+
+HOW TO IMPORT MODULES?
+1. Importing an entire module: 
+-  import math
+   print(math.sqrt(16))
+2. Importing a specific functions:
+-  from math import sqrt
+   print(sqrt(16))
+3. Use aliases
+-  import math as m 
+   print (m.sqrt(16))
+
+4. CREATING CUSTOM MODULES
+-  when you have a lots and lots of different fucntionality you can just create the modules and if you want to use them in another script you can just import it using their name
